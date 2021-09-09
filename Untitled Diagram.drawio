@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-09T20:55:42.769Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.38" etag="tB9OPsMR_ydB58yY7ZCy" version="15.1.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-09-09T21:36:15.084Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.38" etag="LuSuK9F54a7dfqPDv48n" version="15.1.4" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="600" dy="395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,31 +44,98 @@
         <mxCell id="K3OFPqu3CEBO0eDE1UmY-1" value="Процесс #001" style="rounded=0;whiteSpace=wrap;html=1;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;" vertex="1" collapsed="1" parent="1">
           <mxGeometry x="40" y="10" width="120" height="60" as="geometry" />
         </mxCell>
-        <object label="" placeholders="1" Name="Учет лесов" Holder="Уполномоченный ФОИВ" Comment="Очень важный процесс и другая инфа" id="K3OFPqu3CEBO0eDE1UmY-4">
-          <mxCell style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=1;swimlaneLine=1;strokeWidth=2;swimlaneFillColor=#ffffff;" vertex="1" parent="1">
-            <mxGeometry x="340" y="600" width="220" height="100" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="K3OFPqu3CEBO0eDE1UmY-5" value="" style="shape=mxgraph.bpmn.swimlane;html=1;startSize=20;horizontal=1;swimlaneLine=1;collapsible=0;fontStyle=0;strokeWidth=2;swimlaneFillColor=#ffffff;isCollection=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="490" width="220" height="100" as="geometry" />
+        <mxCell id="K3OFPqu3CEBO0eDE1UmY-7" value="Учет лесов" style="swimlane;startSize=30;horizontal=1;childLayout=treeLayout;horizontalTree=0;resizable=0;containerType=tree;" vertex="1" parent="1">
+          <mxGeometry x="30" y="510" width="280" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="K3OFPqu3CEBO0eDE1UmY-7" value="Vertical Tree Layout" style="swimlane;startSize=20;horizontal=1;childLayout=treeLayout;horizontalTree=0;resizable=0;containerType=tree;" vertex="1" parent="1">
-          <mxGeometry x="40" y="490" width="280" height="190" as="geometry" />
+        <mxCell id="K3OFPqu3CEBO0eDE1UmY-8" value="Учет лесных участков" style="whiteSpace=wrap;html=1;" vertex="1" parent="K3OFPqu3CEBO0eDE1UmY-7">
+          <mxGeometry x="90" y="50" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="K3OFPqu3CEBO0eDE1UmY-8" value="Root" style="whiteSpace=wrap;html=1;" vertex="1" parent="K3OFPqu3CEBO0eDE1UmY-7">
-          <mxGeometry x="90" y="40" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="K3OFPqu3CEBO0eDE1UmY-9" value="Child 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="K3OFPqu3CEBO0eDE1UmY-7">
-          <mxGeometry x="20" y="130" width="100" height="40" as="geometry" />
+        <mxCell id="K3OFPqu3CEBO0eDE1UmY-9" value="Образование участков" style="whiteSpace=wrap;html=1;" vertex="1" parent="K3OFPqu3CEBO0eDE1UmY-7">
+          <mxGeometry x="20" y="140" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="K3OFPqu3CEBO0eDE1UmY-10" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" edge="1" parent="K3OFPqu3CEBO0eDE1UmY-7" source="K3OFPqu3CEBO0eDE1UmY-8" target="K3OFPqu3CEBO0eDE1UmY-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K3OFPqu3CEBO0eDE1UmY-11" value="Child 2" style="whiteSpace=wrap;html=1;" vertex="1" parent="K3OFPqu3CEBO0eDE1UmY-7">
-          <mxGeometry x="160" y="130" width="100" height="40" as="geometry" />
+        <mxCell id="K3OFPqu3CEBO0eDE1UmY-11" value="Уточнение границ участков" style="whiteSpace=wrap;html=1;" vertex="1" parent="K3OFPqu3CEBO0eDE1UmY-7">
+          <mxGeometry x="160" y="140" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="K3OFPqu3CEBO0eDE1UmY-12" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" edge="1" parent="K3OFPqu3CEBO0eDE1UmY-7" source="K3OFPqu3CEBO0eDE1UmY-8" target="K3OFPqu3CEBO0eDE1UmY-11">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qisElBiey00tL4I1Wacb-31" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" edge="1" target="qisElBiey00tL4I1Wacb-32" source="K3OFPqu3CEBO0eDE1UmY-11" parent="K3OFPqu3CEBO0eDE1UmY-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="600" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qisElBiey00tL4I1Wacb-32" value="" style="whiteSpace=wrap;html=1;aspect=fixed;rotation=45;" vertex="1" parent="K3OFPqu3CEBO0eDE1UmY-7">
+          <mxGeometry x="195" y="230" width="30" height="27.69" as="geometry" />
+        </mxCell>
+        <mxCell id="qisElBiey00tL4I1Wacb-33" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" edge="1" target="qisElBiey00tL4I1Wacb-34" source="K3OFPqu3CEBO0eDE1UmY-9" parent="K3OFPqu3CEBO0eDE1UmY-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="600" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qisElBiey00tL4I1Wacb-34" value="Образование участков" style="whiteSpace=wrap;html=1;" vertex="1" parent="K3OFPqu3CEBO0eDE1UmY-7">
+          <mxGeometry x="20" y="230" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qisElBiey00tL4I1Wacb-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qisElBiey00tL4I1Wacb-35" target="qisElBiey00tL4I1Wacb-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qisElBiey00tL4I1Wacb-35" value="" style="strokeWidth=2;html=1;shape=mxgraph.lean_mapping.manufacturing_process;fontSize=12;verticalAlign=middle;html=1;align=center;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="510" width="184" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qisElBiey00tL4I1Wacb-36" value="&lt;span&gt;БП: Установление полномочий&lt;/span&gt;" style="text;fontSize=12;spacingLeft=2;verticalAlign=top;html=1;align=center;spacingTop=-5;resizeWidth=1;" vertex="1" parent="qisElBiey00tL4I1Wacb-35">
+          <mxGeometry width="184.00000000000003" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="qisElBiey00tL4I1Wacb-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qisElBiey00tL4I1Wacb-44" target="qisElBiey00tL4I1Wacb-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qisElBiey00tL4I1Wacb-41" value="Как подготавливаются доки" style="strokeWidth=2;html=1;shape=mxgraph.lean_mapping.manufacturing_process;fontSize=12;verticalAlign=middle;html=1;align=center;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="510" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qisElBiey00tL4I1Wacb-42" value="Подготовка проектов документов" style="text;fontSize=12;spacingLeft=2;verticalAlign=top;html=1;align=center;spacingTop=-5;resizeWidth=1;" vertex="1" parent="qisElBiey00tL4I1Wacb-41">
+          <mxGeometry width="190" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="qisElBiey00tL4I1Wacb-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qisElBiey00tL4I1Wacb-41" target="qisElBiey00tL4I1Wacb-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qisElBiey00tL4I1Wacb-44" value="Предложение" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="764" y="502.5" width="86" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="qisElBiey00tL4I1Wacb-48" value="Sub Section" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="800" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qisElBiey00tL4I1Wacb-49" value="Sub Section" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="800" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qisElBiey00tL4I1Wacb-50" value="Sub Topic" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="560" y="672.5" width="72" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qisElBiey00tL4I1Wacb-51" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=0.99;exitY=0.404;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="qisElBiey00tL4I1Wacb-50" parent="1" source="qisElBiey00tL4I1Wacb-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="524" y="722.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qisElBiey00tL4I1Wacb-52" value="Sub Topic" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="570" y="722.5" width="72" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qisElBiey00tL4I1Wacb-53" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1.006;exitY=0.394;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="qisElBiey00tL4I1Wacb-52" parent="1" source="qisElBiey00tL4I1Wacb-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="524" y="722.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="ППр" link="http://test.semeikasite.ru/CubaForestsScripts/gjsondata.php?q=empowerment" linkTarget="_blank" id="qisElBiey00tL4I1Wacb-54">
+          <mxCell style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+            <mxGeometry x="432" y="692.5" width="104" height="55" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="qisElBiey00tL4I1Wacb-57" value="Док &lt;br&gt;устанавливает&lt;br&gt;полномочия" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="350" y="630" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qisElBiey00tL4I1Wacb-58" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" target="qisElBiey00tL4I1Wacb-57" parent="1" source="qisElBiey00tL4I1Wacb-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="312" y="692.5" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
