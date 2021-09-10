@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-09T21:36:15.084Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.38" etag="LuSuK9F54a7dfqPDv48n" version="15.1.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-09-10T08:46:54.394Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.38" etag="1FZdLgfRm5mvPs4gkS3B" version="15.1.4" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="600" dy="395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="600" dy="395" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,14 +61,6 @@
         </mxCell>
         <mxCell id="K3OFPqu3CEBO0eDE1UmY-12" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" edge="1" parent="K3OFPqu3CEBO0eDE1UmY-7" source="K3OFPqu3CEBO0eDE1UmY-8" target="K3OFPqu3CEBO0eDE1UmY-11">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qisElBiey00tL4I1Wacb-31" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" edge="1" target="qisElBiey00tL4I1Wacb-32" source="K3OFPqu3CEBO0eDE1UmY-11" parent="K3OFPqu3CEBO0eDE1UmY-7">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="200" y="600" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qisElBiey00tL4I1Wacb-32" value="" style="whiteSpace=wrap;html=1;aspect=fixed;rotation=45;" vertex="1" parent="K3OFPqu3CEBO0eDE1UmY-7">
-          <mxGeometry x="195" y="230" width="30" height="27.69" as="geometry" />
         </mxCell>
         <mxCell id="qisElBiey00tL4I1Wacb-33" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" edge="1" target="qisElBiey00tL4I1Wacb-34" source="K3OFPqu3CEBO0eDE1UmY-9" parent="K3OFPqu3CEBO0eDE1UmY-7">
           <mxGeometry relative="1" as="geometry">
@@ -141,12 +133,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zBIBGeo1kSP1_mOE-Jpk" name="Page-2">
-    <mxGraphModel dx="720" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1029" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="5kS51EfSnreG56XtW669-0" />
         <mxCell id="5kS51EfSnreG56XtW669-1" parent="5kS51EfSnreG56XtW669-0" />
-        <mxCell id="5kS51EfSnreG56XtW669-2" value="hgfhgfhgfhfh" style="rounded=1;whiteSpace=wrap;html=1;" parent="5kS51EfSnreG56XtW669-1" vertex="1">
-          <mxGeometry x="180" y="100" width="120" height="60" as="geometry" />
+        <mxCell id="K2Wq3nYcLvtexV-uqCVv-0" value="&lt;div&gt;&lt;b&gt;BP TREE&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Для чего?&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;. презентовать (показывать босам)&amp;nbsp;&lt;/div&gt;&lt;div&gt;. совместно работать&lt;/div&gt;&lt;div&gt;. хранить кучу свойств процессов&lt;/div&gt;&lt;div&gt;. сравнить процессы с деревом процессов субъектов&lt;/div&gt;&lt;div&gt;.. отмечать (выделять цветом) совпадающие процессы, делать комменты&lt;/div&gt;&lt;div&gt;.. отмечать процессы явные и draftы&lt;/div&gt;&lt;div&gt;.. делать гиперссылки&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Особенности&lt;/b&gt;&lt;/div&gt;&lt;div&gt;. БП тут типа сущность, у&amp;nbsp; которой есть свойства&lt;/div&gt;&lt;div&gt;. нужна очень гибкая нотация для верхнего уровня&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Что нужно еще?&lt;/b&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;.если draw. io, то нужен ещё чек-лист&lt;/div&gt;&lt;div&gt;(SCRAM)&amp;nbsp;&lt;/div&gt;&lt;div&gt;. чатик&lt;/div&gt;&lt;div&gt;. прототип процесса&lt;/div&gt;&lt;div&gt;. проверить удобство работы с шариком&lt;/div&gt;&lt;div&gt;. можно сделать&amp;nbsp; папку с html и доками&lt;/div&gt;&lt;div&gt;.. bitrix можно, но слету не сделать&lt;/div&gt;&lt;div&gt;.. папка с файлами&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Профиты&lt;/b&gt;&lt;/div&gt;&lt;div&gt;. одновременно работаем&lt;/div&gt;&lt;div&gt;. ведем кучу реквизитов - все учтено&lt;/div&gt;&lt;div&gt;. используем любые нотации&amp;nbsp; (есть драфты и чистовики)&amp;nbsp;&lt;/div&gt;&lt;div&gt;. проект на github&lt;/div&gt;&lt;div&gt;.. можно при желании переделать в любой схемовый формат, т. к. доступен&amp;nbsp; и человекопонятен&amp;nbsp; код схемы&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Недостатки&lt;/b&gt;&lt;/div&gt;&lt;div&gt;. скудный UI&lt;/div&gt;&lt;div&gt;. нужно аккуратно коммитить (хотя это скорее достоинство - версионность), чтоб не затереть работу соседа. Для этого нужно рабртать по ролям в SCRAM или чеклисте&lt;/div&gt;&lt;div&gt;. нужно держать в голове процесс командной работы, не делать роль и задачи соседа&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;" vertex="1" parent="5kS51EfSnreG56XtW669-1">
+          <mxGeometry x="50" y="35" width="580" height="550" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
